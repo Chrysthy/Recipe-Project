@@ -1,3 +1,28 @@
 body {
     background-color: var(--neutral-eggshell);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+}
+
+main {
+    background-color: var(--neutral-white);
+    max-width: 650px;
+    border-radius: 20px;
+
+
+}
+
+main img {
+    width: 100%;
+    /* pega 100% do tamanho do elemento pai - body */
+    padding: 30px;
+    border-radius: 50px;
+}
+
+main .titulo {
+    padding: 50px;
 }
