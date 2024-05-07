@@ -23,6 +23,15 @@ main img {
     border-radius: 50px;
 }
 
+main .informacoes {
+    padding-inline: 30px;
+}
+
 main .titulo {
-    padding: 50px;
+    margin-top: 10px;
+}
+
+main .prep-time {
+    padding-inline: 30px;
+    background-color: var(--neutral-rose-white);
 }
