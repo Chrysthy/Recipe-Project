@@ -27,11 +27,18 @@ main .informacoes {
     padding-inline: 30px;
 }
 
-main .titulo {
-    margin-top: 10px;
+main .titulo-receita {
+    margin-top: 20px;
 }
 
 main .prep-time {
     padding-inline: 30px;
     background-color: var(--neutral-rose-white);
 }
+
+main .prep-time .titulo {
+    padding: 20px;
+
+}
+
+main .prep-time ul {}
