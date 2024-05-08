@@ -49,6 +49,7 @@ main .prep-time {
 
 main .prep-time .titulo {
     padding: 20px;
+    margin-bottom: -27px;
     color: var(--primary-dark-raspberry);
 
 }
@@ -59,7 +60,7 @@ main .prep-time ul {
 }
 
 main .prep-time ul li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 main .prep-time ul li::before,
@@ -102,6 +103,19 @@ main .nutricao {
 }
 
 main .nutricao h2,
-p {
+main .nutricao p {
     margin-bottom: 20px;
+}
+
+main table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+main table tr {
+    border-bottom: 1px solid var(--neutral-light-grey);
+}
+
+main table td {
+    padding: 10px;
 }
