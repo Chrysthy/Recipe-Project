@@ -58,6 +58,10 @@ main .prep-time ul {
     margin-left: 20px;
 }
 
+main .prep-time ul li {
+    margin-bottom: 10px;
+}
+
 main .prep-time ul li::before,
 main .ingredientes ul li::before,
 main .instrucoes ol li::before {
@@ -65,7 +69,8 @@ main .instrucoes ol li::before {
     margin-left: 10px;
 }
 
-main .ingredientes {
+main .ingredientes,
+main .instrucoes {
     border-bottom: 1px solid var(--neutral-light-grey);
     margin-inline: 30PX;
     margin-bottom: 20px;
@@ -73,6 +78,10 @@ main .ingredientes {
 
 main .ingredientes ul {
     padding: 20px;
+}
+
+main .ingredientes ul li {
+    margin-bottom: 5px;
 }
 
 main .instrucoes {
@@ -85,4 +94,14 @@ main .instrucoes ol {
 
 main .instrucoes ol li {
     margin-bottom: 10px;
+}
+
+
+main .nutricao {
+    margin-inline: 30px;
+}
+
+main .nutricao h2,
+p {
+    margin-bottom: 20px;
 }
