@@ -59,7 +59,10 @@ main .prep-time ul li::before {
 }
 
 main .ingredientes {
-    padding-inline: 10px;
+    padding-inline: 30px;
+    border-bottom: 1px solid var(--neutral-light-grey);
+    margin-inline: 30PX;
+    margin-bottom: ;
 }
 
 main .ingredientes ul {
