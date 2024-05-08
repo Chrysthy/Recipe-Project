@@ -31,9 +31,14 @@ main .titulo-receita {
     margin-top: 20px;
 }
 
+main .informacoes .descricao {
+    margin-bottom: 20px;
+}
+
 main .prep-time {
-    padding-inline: 30px;
+    margin-inline: 30px;
     background-color: var(--neutral-rose-white);
+    border-radius: 10px;
 }
 
 main .prep-time .titulo {
@@ -41,4 +46,7 @@ main .prep-time .titulo {
 
 }
 
-main .prep-time ul {}
+main .prep-time ul {
+    padding: 30px;
+    margin-left: 20px;
+}
