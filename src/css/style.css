@@ -93,6 +93,11 @@ main .instrucoes ol {
     padding: 15px;
 }
 
+main .instrucoes ol li::marker,
+main table .valores {
+    color: var(--primary-dark-raspberry);
+}
+
 main .instrucoes ol li {
     margin-bottom: 10px;
 }
@@ -110,9 +115,10 @@ main .nutricao p {
 main table {
     border-collapse: collapse;
     width: 100%;
+    margin-bottom: 20px;
 }
 
-main table tr {
+main table tr:not(:last-child) {
     border-bottom: 1px solid var(--neutral-light-grey);
 }
 
