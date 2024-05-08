@@ -39,6 +39,8 @@ main .prep-time {
     margin-inline: 30px;
     background-color: var(--neutral-rose-white);
     border-radius: 10px;
+
+    margin-bottom: 20px;
 }
 
 main .prep-time .titulo {
@@ -49,4 +51,22 @@ main .prep-time .titulo {
 main .prep-time ul {
     padding: 30px;
     margin-left: 20px;
+}
+
+main .prep-time ul li::before {
+    content: "";
+    margin-left: 10px;
+}
+
+main .ingredientes {
+    padding-inline: 10px;
+}
+
+main .ingredientes ul {
+    padding: 20px;
+}
+
+main .ingredientes ul li::before {
+    content: "";
+    margin-left: 10px;
 }
