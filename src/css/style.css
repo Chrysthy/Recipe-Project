@@ -41,6 +41,7 @@ main .titulo-receita {
 
 main .informacoes .descricao {
     margin-bottom: 20px;
+    word-spacing: 3px;
 }
 
 main .prep-time {
@@ -91,6 +92,7 @@ main .ingredientes ul li {
 
 main .instrucoes {
     margin-inline: 30px;
+    word-spacing: 3px;
 }
 
 main .instrucoes ol {
